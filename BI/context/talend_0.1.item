@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_3PWyoAsOEey6cPzI30WPjw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_3PWyoQsOEey6cPzI30WPjw" comment="" name="talend_Encoding" prompt="talend_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
+  <contextParameter xmi:id="_3PWyogsOEey6cPzI30WPjw" comment="" name="talend_RowSeparator" prompt="talend_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_3PWyowsOEey6cPzI30WPjw" comment="" name="talend_Header" prompt="talend_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+  <contextParameter xmi:id="_3PWypAsOEey6cPzI30WPjw" comment="" name="talend_File" prompt="talend_File?" promptNeeded="false" type="id_File" value="E:/workspace/talend/talend.csv"/>
+  <contextParameter xmi:id="_3PWypQsOEey6cPzI30WPjw" comment="" name="talend_FieldSeparator" prompt="talend_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+</talendfile:ContextType>
