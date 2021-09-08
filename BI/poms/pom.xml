@@ -12,6 +12,7 @@
     <module>code/routines</module>
     <module>jobs/process/pg_sleep_0.1</module>
     <module>jobs/process/transformation_0.1</module>
+    <module>jobs/process/snow_transformation_0.1</module>
   </modules>
   <properties>
     <talend.project.name>BI</talend.project.name>
