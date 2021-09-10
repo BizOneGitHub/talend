@@ -76,6 +76,10 @@
     "version" : "Latest",
     "type" : "property"
   }, {
+    "id" : "_kLm_IBFUEeyUJd3YnCkTtg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_w0DM0AryEey6cPzI30WPjw",
     "version" : "Latest",
     "type" : "property"
@@ -119,10 +123,6 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "_USZTgBB_Eeyv5rLnrdImDQ - TALEND",
-    "version" : "Latest",
-    "type" : "schema"
   }, {
     "id" : "_w0DM0AryEey6cPzI30WPjw - 1metadata",
     "version" : "Latest",
