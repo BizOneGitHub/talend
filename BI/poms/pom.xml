@@ -13,6 +13,15 @@
     <module>jobs/process/pg_sleep_0.1</module>
     <module>jobs/process/transformation_0.1</module>
     <module>jobs/process/snow_transformation_0.1</module>
+    <module>jobs/process/transformation_excel_0.1</module>
+    <module>jobs/process/snow_insert_0.1</module>
+    <module>jobs/process/custom_routine_fn_0.1</module>
+    <module>jobs/process/fn_demo_job_0.1</module>
+    <module>jobs/process/convertutils_0.1</module>
+    <module>jobs/process/job_sql_java_0.1</module>
+    <module>jobs/process/custom_java_demo_0.1</module>
+    <module>jobs/process/job_connect_0.1</module>
+    <module>jobs/process/demo_join_talbe_0.1</module>
   </modules>
   <properties>
     <talend.project.name>BI</talend.project.name>

@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2021-09-01T18:33:27.889+0700">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2021-10-14T11:35:36.552+0700">
+  <deletedFolders>code/routines/DbConnections</deletedFolders>
   <deletedItems id="_TgnLgLUbEemvK6kofJiIXQ" path="" type="PROCESS"/>
+  <deletedItems id="_xPc4kCgAEeye3p8t1m90vQ" path="" type="PROCESS"/>
+  <deletedItems id="_1Pp3QCgDEeye3p8t1m90vQ" path="" type="PROCESS"/>
+  <deletedItems id="_KXnFQCgAEeye3p8t1m90vQ" path="" type="ROUTINES"/>
+  <deletedItems id="_g6HB0CgAEeye3p8t1m90vQ" path="" type="ROUTINES"/>
+  <deletedItems id="_nyk00CgIEeyHCYcSMUO54g" path="" type="PROCESS"/>
+  <deletedItems id="_Ft45QCv_EeyjKsX190SMtQ" path="" type="PROCESS"/>
+  <deletedItems id="_qyENACvzEeyuYvDtb7XesA" path="DbConnections" type="ROUTINES"/>
+  <deletedItems id="_lWXzoCvjEey7Yo_qJz76DQ" path="DbConnections" type="ROUTINES"/>
+  <deletedItems id="_iOmMkCvyEey7Yo_qJz76DQ" path="DbConnections" type="ROUTINES"/>
+  <deletedItems id="_uAER0CgIEeyHCYcSMUO54g" path="" type="ROUTINES"/>
+  <deletedItems id="_jqXBICwMEeyjKsX190SMtQ" path="" type="ROUTINES"/>
+  <deletedItems id="_ezYhYCvbEey7Yo_qJz76DQ" path="" type="PROCESS"/>
 </recyclebin:RecycleBin>

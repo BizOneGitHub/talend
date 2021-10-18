@@ -1,0 +1,35 @@
+package routines;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.sql.Statement;
+import java.sql.ResultSetMetaData;
+public class ExeStatementSql {
+    
+    public static List<Map<String, Object>> getDataSet(Map<String, Object> globalMap, String query) throws SQLException {
+    	List<Map<String, Object>> dataSet = new ArrayList<Map<String, Object>>();
+    	
+    	Connection conn = (Connection)globalMap.get("conn_tDBConnection_1");
+
+    	Statement stmt = conn.createStatement();
+    
+    	ResultSet rs = stmt.executeQuery(query);
+    	ResultSetMetaData resultSetMetaData = rs.getMetaData();
+    	int col = resultSetMetaData.getColumnCount();
+    	while(rs.next()) {
+    		Map<String, Object> row = new HashMap<String, Object>();
+    		for (int colIdx = 1; colIdx <= col;  colIdx++)
+        	{
+    			row.put(resultSetMetaData.getColumnName(colIdx).toLowerCase(), rs.getObject(colIdx));      			
+    			//System.out.println(resultSetMetaData.getColumnName(colIdx) + "|" + rs.getObject(colIdx));
+        	}
+    		dataSet.add(row);
+    	}
+    	stmt.close();
+    	return dataSet;
+    }
+}
