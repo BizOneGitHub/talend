@@ -233,6 +233,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_USZTgBB_Eeyv5rLnrdImDQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DataOperation",
     "version" : "Latest",
     "type" : "routine"
@@ -276,6 +280,10 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_USZTgBB_Eeyv5rLnrdImDQ - TALEND",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {

@@ -10,10 +10,10 @@ import java.sql.Statement;
 import java.sql.ResultSetMetaData;
 public class ExeStatementSql {
     
-    public static List<Map<String, Object>> getDataSet(Map<String, Object> globalMap, String query) throws SQLException {
+    public static List<Map<String, Object>> getDataSet(Map<String, Object> globalMap, String query, String connectionName) throws SQLException {
     	List<Map<String, Object>> dataSet = new ArrayList<Map<String, Object>>();
     	
-    	Connection conn = (Connection)globalMap.get("conn_tDBConnection_1");
+    	Connection conn = (Connection)globalMap.get(connectionName);
 
     	Statement stmt = conn.createStatement();
     
